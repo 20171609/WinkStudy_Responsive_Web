@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>WinkStudy_HW2</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        header {
+            background-color: red;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header div{
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        nav{
+            background-color:pink;
+            width: 25%;
+        }
+
+        nav ul{
+            text-align: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin-right: 30px;
+            margin-top: 100px;
+        }
+
+        #nav_main_aside{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        main{
+            background-color:yellow;
+            width: 60%;
+        }
+
+        main section{
+            display: inline-block;
+            background-color:yellowgreen;
+            height: 530px;
+            margin-top: 10px;
+            margin-left: 1.8%;
+            margin-right: 0.2%;
+            width: 30%;
+            text-align: center;
+        }
+
+        main section div{
+            line-height: 600px;
+        }
+
+        aside{
+            float: left;
+            background-color:blue;
+            width: 15%;
+            text-align: center;
+        }
+
+        aside div{
+            line-height: 600px;
+            color: red;
+        }
+
+        nav, aside, main{
+            height: 550px;
+        }
+
+        footer{
+            background-color:black;
+            color: white;
+            clear: both;
+            height: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>header</div>
+    </header>
+    <div id="nav_main_aside">
+        <nav>
+            <ul>
+                <li><a href="">메뉴 1</a></li>
+                <li><a href="">메뉴 2</a></li>
+                <li><a href="">메뉴 3</a></li>
+                <li><a href="">메뉴 4</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <div>
+                    내용 1
+                </div>
+            </section>
+            <section>
+                <div>
+                    내용 2
+                </div>
+            </section>
+            <section>
+                <div>
+                    내용 3
+                </div>
+            </section>
+        </main>
+        <aside>
+            <div>
+                무언가가 들어감.
+            </div>
+        </aside>
+    </div>
+    <footer>
+        &copy; 김현민
+    </footer>
+</body>
+</html>
