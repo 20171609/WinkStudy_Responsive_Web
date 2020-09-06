@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Publishing</title>
+    <style>
+        body{
+            background-color: black;
+        }
+
+        header{
+            width: 300px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2{
+            color: white;
+        }
+
+        header div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 30px;
+            color: #B6B7B8;
+            background-color:#262931;
+            border-radius: 15px;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 250px;
+            width: 300px;
+        }
+
+        main section{
+            border-radius: 10px;
+            height: 75px;
+            width: 300px;
+            background-color: #262931;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        main section img{
+            margin-left: 20px;
+            height: 45px;
+            width: 45px;
+            border-radius: 5px;
+        }
+
+        main section div{
+            margin-left: 7px;
+            height: 55px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .topic{
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .company{
+            margin-top: 3px;
+            color: white;
+            font-size: 10px;
+        }
+
+        .content{
+            font-size: 10px;
+            color: #B6B7B8;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>
+            💼 새로운 채용 공고
+        </h2>
+        <div>
+            3
+        </div>
+    </header>
+    <main>
+        <section id="soeulStore">
+            <img src="image/seoulstore.jpg">
+            <div>
+                <div class = "topic">
+                    UI/UX 디자이너
+                </div>
+                <div class = "company">
+                    서울스토어
+                </div>
+                <div class = "content">
+                    고객의 몰입을 만들고자 합니다!
+                </div>
+            </div>
+        </section>
+        <section id="toss">
+            <img src="image/toss.jpg">
+            <div>
+                <div class = "topic">
+                    Product/UI Designer
+                </div>
+                <div class = "company">
+                    비바리프블리카
+                </div>
+                <div class = "content">
+                    TOSS 포트폴리오 없는 디자이너 채용
+                </div>
+            </div>
+        </section>
+        <section id="grepp">
+            <img src="image/grepp.webp">
+            <div>
+                <div class = "topic">
+                    Product Designer
+                </div>
+                <div class = "company">
+                    그렙(프로그래머스/교육사업팀)
+                </div>
+                <div class = "content">
+                    전사 리모트 근무 (영원히 ~)
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
